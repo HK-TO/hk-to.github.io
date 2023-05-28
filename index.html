@@ -20,13 +20,29 @@
             list-style-type: none;
             padding: 0;
             margin: 0;
-            display: flex;
+        }
+        li {
+            margin-bottom: 5px;
         }
 
         a {
             text-decoration: none;
             color: #333;
             font-weight: bold;
+        }
+
+        footer {
+            width: 100%;
+            height: 120px;
+            text-align: center;
+            padding: 50px 0;
+            background-color: #cab64a;
+        }
+
+        #self-introduction {
+            background-color: #f2f2f2;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
     </style>
 
@@ -36,18 +52,17 @@
 
         <nav>
             <ul>
-                <li><a href="#section1">セクション1</a></li>
+                <li><a href="#self-introduction">自己紹介</a></li>
                 <li><a href="#section2">セクション2</a></li>
                 <li><a href="#section3">セクション3</a></li>
             </ul>
         </nav>
-
         <section id="self-introduction">
             <h2> 自己紹介 </h2>
-            ＜<ul>
+            <ul>
                 <li><strong>名前：</strong> 北斗竜介</li>
                 <li><strong>スキル：</strong> HTML、CSS、Python、PICマイコン</li>
-                <li><strong>趣味</strong> 料理</li>
+                <li><strong>趣味：</strong> 料理</li>
             </ul>
         </section>
 
@@ -58,5 +73,12 @@
         <section id="section3">
             <h2> TwitterやGithubアカウントに紐付けたい． </h2>
         </section>
+
+        <footer>
+            <p>©️ 2023 北斗竜介のウェブサイト </p>
+            <p>お問い合わせ：hokuto.eler419@gmail.com</p>
+        </footer>
+    
     </body>
+
 </html>
